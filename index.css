@@ -1,0 +1,99 @@
+/* Part 1 */
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Part 2 */
+header{
+    text-align: center;
+
+}
+
+/* Part 3 Nav section standard css with hover effect */
+nav{
+    display: flex;
+    background-color: orange;
+    overflow: hidden;
+}
+
+nav a{
+    float: left;
+    display: block;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border: white solid 1px;
+    padding: 14px 16px; /*top, right, bottom, left*/
+}
+
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Part 4: section css */
+section{
+    display: inline-flex;
+    
+    margin-top: 1%;
+}
+
+/* Part 5: Main section standard html */ 
+main{
+    width:50%;
+    margin: 0%;
+    
+    padding: 5px;
+    background-color: gray;
+}
+main h3{
+    text-align: center;
+    color: black;
+    text-align: center;
+    
+}
+
+main p{
+    color:  black;
+    
+}
+
+
+/* Part 6: aside section css */
+aside{
+    text-align: center;
+    width: 50%; 
+    padding-left: 15px;
+    margin-left: 10%;
+    font-style: normal;
+    background-color: gray;
+    color: black; /*change font color*/
+    float: left; /*keeps the section in the left*/
+}
+
+aside h5{
+    color: black;
+    text-decoration: overline;
+
+}
+
+aside p{
+    color: black;
+}
+
+
+
+/* Part7: Footer standard css */
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+
+}
