@@ -8,13 +8,14 @@ body{
 /* Part 2 */
 header{
     text-align: center;
+    text-decoration: underline #ff7300;
 
 }
 
 /* Part 3 Nav section standard css with hover effect */
 nav{
     display: flex;
-    background-color: orange;
+    background-color: #ff7300;
     overflow: hidden;
 }
 
@@ -52,6 +53,7 @@ main h3{
     text-align: center;
     color: black;
     text-align: center;
+    text-decoration: overline black;
     
 }
 
@@ -73,7 +75,7 @@ aside{
     float: left; /*keeps the section in the left*/
 }
 
-aside h5{
+aside h3{
     color: black;
     text-decoration: overline;
 
@@ -96,4 +98,64 @@ footer{
     text-align: center;
     color: white;
 
+}
+
+
+/* Making the page responsive */
+@media screen and ((min-width: 1238px)) {
+    section{
+        display: flex;
+        
+        margin-top: 1%;
+    }
+    
+    aside{
+        text-align: center;
+        width: 50%; 
+        padding-left: 15px;
+        float: right; /*keeps the section in the left*/
+        margin-left: 10%;
+        font-style: normal;
+        background-color: black;
+        color: white; /*change font color*/
+        
+    }
+    main{
+        width:50%;
+        margin: 0%;
+        padding: 5px;
+        background-color: gray;
+    }
+
+    aside h3{
+        color: white;
+        text-decoration: overline;
+    
+    }
+    
+    aside p{
+        color: white;
+    }
+
+    main{
+        width:50%;
+        margin: 0%;
+        
+        padding: 5px;
+        background-color: black;
+    }
+    main h3{
+        text-decoration: overline white;
+        text-align: center;
+        color: white;
+        text-align: center;
+        
+    }
+    
+    main p{
+        color:  white;
+        
+    }
+    
+    
 }
